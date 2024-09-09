@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; /* Limiting the width for large screens */
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1200px) {
+  .App {
+    padding: 15px; /* Adjusting padding for medium screens */
+    max-width: 100%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .App {
+    padding: 10px; /* Reducing padding for tablet devices */
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .App {
+    padding: 5px; /* Minimal padding for mobile devices */
+  }
+}

@@ -1,98 +1,3 @@
-/* body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(120deg, #f0f4f8, #d9e4f4);
-  padding: 20px;
-  margin: 0;
-}
-
-form {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 95vw;
-  margin: auto;
-}
-
-h2 {
-  border-bottom: 2px solid #4CAF50;
-  padding-bottom: 10px;
-  margin-bottom: 20px;
-  color: #4CAF50;
-}
-
-.form-groups {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-bottom: 15px;
-}
-
-.form-group {
-  display: flex;
-  gap: 20px;
-  margin-bottom: 15px;
-}
-
-.form-group input,
-.form-group textarea,
-.form-group select {
-  flex: 1 1 calc(50% - 20px);
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 10px;
-  font-size: 16px;
-}
-
-.form-group input[type="date"] {
-  flex: 1 1 calc(25% - 20px);
-}
-
-.form-group textarea {
-  flex: 1 1 100%;
-  height: 100px;
-}
-
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  transition: background-color 0.3s ease;
-  margin-right: 10px;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-button[type="button"] {
-  background-color: #008CBA;
-}
-
-button[type="button"]:hover {
-  background-color: #007B9A;
-}
-
-input[type="file"] {
-  border: none;
-}
-
-input[type="checkbox"] {
-  margin-right: 10px;
-}
-
-label {
-  font-size: 16px;
-}
-
-.full-width {
-  flex: 1 1 100%;
-} */
 
 
 body {
@@ -114,10 +19,10 @@ form {
 }
 
 h2 {
-  border-bottom: 2px solid #4CAF50;
+  border-bottom: 2px solid red;
   padding-bottom: 10px;
   margin-bottom: 20px;
-  color: #4CAF50;
+  color: red;
   font-size: 1.5em;
   text-align: center;
 }
@@ -132,7 +37,7 @@ h2 {
 .form-group input,
 .form-group textarea,
 .form-group select {
-  flex: 1 1 calc(50% - 20px); /* Each input field takes up 50% minus gap */
+  flex: 1 1 calc(50% - 20px); 
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -144,7 +49,7 @@ h2 {
 .form-group input[type="number"],
 .form-group input[type="text"],
 .form-group input[type="file"] {
-  width: 100%; /* Ensure inputs are full width in their flex containers */
+  width: 100%; 
 }
 
 button {
@@ -200,7 +105,7 @@ th, td {
   text-align: left;
 }
 
-/* Table Header Styling */
+
 thead th {
   background-color: #f2f2f2;
   font-weight: bold;
@@ -216,7 +121,7 @@ thead th {
   .form-group input,
   .form-group textarea,
   .form-group select {
-    flex: 1 1 100%; /* Stack inputs vertically on smaller screens */
+    flex: 1 1 100%; 
     font-size: 16px;
   }
 
@@ -237,18 +142,18 @@ thead th {
     display: block;
   }
 
-  /* Hide table headers on mobile */
+ 
   thead {
     display: none;
   }
 
-  /* Add border around the rows for clarity */
+  
   tr {
     border: 1px solid #ccc;
     margin-bottom: 10px;
   }
 
-  /* Add data-label for mobile view */
+ 
   td {
     padding-left: 50%;
     position: relative;
